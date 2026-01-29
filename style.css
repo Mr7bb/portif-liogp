@@ -1,12 +1,38 @@
-*{
+* {
   margin: 10;
   padding: 5;
   box-sizing: border-box;
 }
-body{
+body {
   font-family: arial, helvetica, sans-serif;
   backgroud-color: #2b124c
   color: #fbe4d8
+display: flex;
+flex-direction: column
+align-itens: center;
+gap: 20px;
+}
+.title {
+  display: flex;
+  flex-direction: column
+  gap: 5px;
+  background-color: #190019
+  padding: 25px 55px;
+  border-radius: 20px;
+}
+h1 {
+  font-size: 42px;
+  text-align: center;
+}
+h2 {
+  font-weight: 300;
+  color: #dfb6b2
+}
+p {
+  max-width: 700px;
+  text-align: center
+  line-height: 1.6;
+  color: #dfb6b2;
 }
 
 
