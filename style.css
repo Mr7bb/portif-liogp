@@ -5,8 +5,8 @@
 }
 body {
   font-family: arial, helvetica, sans-serif;
-  backgroud-color: #2b124c
-  color: #fbe4d8
+  backgroud-color: #2b124c;
+  color: #fbe4d8;
 display: flex;
 flex-direction: column
 align-itens: center;
@@ -26,7 +26,7 @@ h1 {
 }
 h2 {
   font-weight: 300;
-  color: #dfb6b2
+  color: #dfb6b2;
 }
 p {
   max-width: 700px;
@@ -34,5 +34,37 @@ p {
   line-height: 1.6;
   color: #dfb6b2;
 }
+.imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+imagem {
+  width: 245px;
+  height: 235px;
+  backgroud-color: #522b5b;
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background-color: #854f6c;
+  color #fbe4d8;
+  border: none;
+  padding: 15px 40px;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #dfb6b2;
+  color: #190019;
+}
+
+
+
+
 
 
