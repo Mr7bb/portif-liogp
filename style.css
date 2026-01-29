@@ -1,15 +1,15 @@
 * {
-  margin: 10;
-  padding: 5;
+  margin: 10px;
+  padding: 5px;
   box-sizing: border-box;
 }
 body {
   font-family: arial, helvetica, sans-serif;
-  backgroud-color: #2b124c;
+  background-color: #2b124c;
   color: #fbe4d8;
 display: flex;
-flex-direction: column
-align-itens: center;
+flex-direction: column;
+align-items: center;
 gap: 20px;
 }
 .title {
@@ -39,7 +39,7 @@ p {
   justify-content: center;
   align-items: center;
 }
-imagem {
+.imagem {
   width: 245px;
   height: 235px;
   backgroud-color: #522b5b;
@@ -50,7 +50,7 @@ a {
 }
 button {
   background-color: #854f6c;
-  color #fbe4d8;
+  color: #fbe4d8;
   border: none;
   padding: 15px 40px;
   border: none;
