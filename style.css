@@ -212,7 +212,7 @@ button:hover {
 }
 
 .illustration{
-    max-widh:250px;
+    max-width:250px;
     height:auto;
     margin-top:-10px;
 }
@@ -226,7 +226,7 @@ button:hover {
     color:white;
     border:none;
     padding:10px 30px;
-    boder-radius:20px;
+    border-radius:20px;
     font-size:1rem;
     cursor:pointer;
     font-weight:bold;
@@ -266,7 +266,7 @@ button:hover {
         flex-direction: column-reverse;
         align-items:center;
         text-align:center;
-        gap:20px;
+        row-gap:20px;
     }
 
     .header-visual{
