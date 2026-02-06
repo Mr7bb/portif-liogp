@@ -336,4 +336,89 @@ button:hover {
 .contato-textos {
     margin-left: 125px;
 }    
+
+.surprise-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.surprise-card {
+    background-color: #FBE4D8;
+    color: #190019;
+    width: 100%;
+    max-width: 900px;
+    padding: 40px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.surprise-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.surprise-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+.surprise-texto h1 {
+    font-size: 38px;
+    line-height: 1.1;
+}
+
+.destaque {
+    color: #522B5B;
+}
+
+.easteregg {
+    font-size: 16px;
+    color: #522B5B;
+    line-height: 1.5;
+}
+
+.surprise-imagem {
+    flex: 1;
+    height: 240px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #DFB6B2;
+}
+
+.surprise-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.surprise-acoes {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 15px 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: #190019;
+    color: #FBE4D8;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+    
    
