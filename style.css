@@ -250,121 +250,48 @@ button:hover {
     height:auto;
 }
 
+@media (max-widht: 768px) {
+    .card-header{
+        flex-direction: column-reverse;
+        align-items:center;
+        text-align:center;
+        row-gap:20px;
+    }
 @media (max-width: 768px) {
 
+    .header-visual{
+        flex-direction:column;
+        align-items:center;
+        width:100%;
 }
     .conteudo-principal {
         flex-direction: column-reverse; 
         text-align: center;
     }
 
+    .bnt-link{
+        align-self:flex-end;
+        position:absolute;
+        top:20px;
+        right:20px;
     .lado-texto {
         align-items: center; 
     }
 
+    .content-body{
+        flex-direction:column;
     .card-container {
         padding: 20px;
     }
 
-    .circulo-borda {
+    .icons-colum{
+        margin:20px0;
+       margin:20px0;
+        
+     .circulo-borda {
         width: 250px;
         height: 250px;
     }
-
-.container-sobre {
-    display: flex;
-    gap: 60px;
-    align-items: flex-start;
-    margin-top: 20px;
-}
-
-.coluna {
-    flex: 1;
-}
-
-.pp {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 25px;
-    color: #3b1e54;
-    text-align: left;
-}
-
-
-.caxa {
-  display: flex;
-  align-items: center;      
-  justify-content: space-between;
-  gap: 40px;                   
-  flex-direction: row-reverse;    
-}
-
-.img-topo{
-   max-width: 200px;
-  height: auto;
-}
-
-
-.contato-header h1 {
-    font-size: 36px;
-    margin-bottom: 30px;
-}
-
-
-.contato-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-left: 80px;
-}
-
-.contato-linha {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.contato-icons {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-
-.icon-item {
-    width: 160px; 
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: #5b2b82;
-    font-weight: bold;
-}
-
-.icon-item i {
-    font-size: 40px;
-}
-
-.contato-textos {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-
-.texto-box {
-    background: #5b2b82;
-    color: white;
-    padding: 18px 28px;
-    border-radius: 25px;
-    min-width: 340px;
-    text-align: center;
-}
-
-.contato-icons,
-.contato-textos {
-    margin-left: 125px;
-}
-
-    
-
     
 
     
