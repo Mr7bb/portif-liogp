@@ -250,7 +250,7 @@ button:hover {
     height:auto;
 }
 
-@media(max:widht:768px){
+@media (max-widht: 768px) {
     .card-header{
         flex-direction: column-reverse;
         align-items:center;
