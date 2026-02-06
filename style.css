@@ -350,6 +350,7 @@ button:hover {
     max-width: 900px;
     padding: 40px;
     border-radius: 20px;
+
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -413,11 +414,3 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
-
-
-
-
-
-
-    
-   
