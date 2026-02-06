@@ -172,13 +172,9 @@ button:hover {
         width: 250px;
         height: 250px;
     }
-}
+
 
 /*PÁGINA SOBRE*/
-
-.card-container {
-        padding: 20px;
-    }
 
 .caxa {
   display: flex;
