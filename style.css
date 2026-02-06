@@ -279,6 +279,64 @@ button:hover {
         margin:20px0;
     }
 
+    .card-container {
+        padding: 20px;
+    }
+
+    .contato-header h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+    .contato-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 80px;
+}
+    .contato-linha {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.contato-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.icon-item {
+    width: 160px; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #5b2b82;
+    font-weight: bold;
+}
+
+.icon-item i {
+    font-size: 40px;
+}
+
+.contato-textos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.texto-box {
+    background: #5b2b82;
+    color: white;
+    padding: 18px 28px;
+    border-radius: 25px;
+    min-width: 340px;
+    text-align: center;
+}
+
+.contato-icons,
+.contato-textos {
+    margin-left: 125px;
+}
     
 
     
